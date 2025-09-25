@@ -1,0 +1,29 @@
+{
+  "classes": [
+    "Manager",
+    "Complaint",
+    "Employee",
+    "Contract",
+    "Payment",
+    "Schedule",
+    "WorkHour",
+    "SalaryStatement",
+    "Notification",
+    "OfficeEmployee"
+  ],
+  "relationships": [
+    {"from": "Manager", "to": "Complaint", "label": "files"},
+    {"from": "Manager", "to": "Contract", "label": "views"},
+    {"from": "Manager", "to": "Employee", "label": "contacts"},
+    {"from": "Employee", "to": "Contract", "label": "has"},
+    {"from": "Employee", "to": "Payment", "label": "chooses"},
+    {"from": "Employee", "to": "Schedule", "label": "views"},
+    {"from": "Employee", "to": "WorkHour", "label": "records"},
+    {"from": "Employee", "to": "SalaryStatement", "label": "receives"},
+    {"from": "Employee", "to": "Notification", "label": "receives"},
+    {"from": "WorkHour", "to": "SalaryStatement", "label": "contributes_to"},
+    {"from": "Notification", "to": "Complaint", "label": "about"},
+    {"from": "OfficeEmployee", "to": "Complaint", "label": "views_all"},
+    {"from": "OfficeEmployee", "to": "Employee", "label": "inherits_from"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "classes": [
+    "Cashier",
+    "Customer",
+    "Order",
+    "Ticket",
+    "TicketMaster",
+    "KitchenEmployee",
+    "Product",
+    "PaymentMethod",
+    "RestaurantOwner",
+    "DeliveryPerson",
+    "DeliveryAddress",
+    "Screen",
+    "Notification",
+    "Overview",
+    "Tips"
+  ],
+  "relationships": [
+    {"from": "Cashier", "to": "Ticket", "label": "uses"},
+    {"from": "Cashier", "to": "Order", "label": "adds"},
+    {"from": "TicketMaster", "to": "Product", "label": "labels"},
+    {"from": "KitchenEmployee", "to": "Order", "label": "sees"},
+    {"from": "TicketMaster", "to": "Screen", "label": "operates"},
+    {"from": "Cashier", "to": "PaymentMethod", "label": "offers"},
+    {"from": "KitchenEmployee", "to": "Notification", "label": "receives"},
+    {"from": "TicketMaster", "to": "Overview", "label": "has"},
+    {"from": "KitchenEmployee", "to": "Product", "label": "sees"},
+    {"from": "RestaurantOwner", "to": "Tips", "label": "fills"},
+    {"from": "DeliveryPerson", "to": "Order", "label": "delivers"},
+    {"from": "Order", "to": "DeliveryAddress", "label": "includes"},
+    {"from": "Order", "to": "Product", "label": "includes"}
+  ]
+}

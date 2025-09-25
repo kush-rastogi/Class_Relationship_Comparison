@@ -1,0 +1,32 @@
+{
+  "classes": [
+    "Order",
+    "Ticket",
+    "DeliveryAddress",
+    "Product",
+    "OrderStatus",
+    "PaymentMethod",
+    "SpecialRequest",
+    "Tips",
+    "TouchScreen",
+    "KitchenEmployee",
+    "Cashier",
+    "TicketMaster",
+    "RestaurantOwner"
+  ],
+  "relationships": [
+    {"from": "Order", "to": "Ticket", "label": "has"},
+    {"from": "Order", "to": "DeliveryAddress", "label": "has"},
+    {"from": "Order", "to": "Product", "label": "has"},
+    {"from": "Order", "to": "OrderStatus", "label": "has"},
+    {"from": "Order", "to": "PaymentMethod", "label": "has"},
+    {"from": "Order", "to": "SpecialRequest", "label": "has"},
+    {"from": "Order", "to": "Tips", "label": "has"},
+    {"from": "Ticket", "to": "TouchScreen", "label": "uses"},
+    {"from": "KitchenEmployee", "to": "Order", "label": "views"},
+    {"from": "Cashier", "to": "Order", "label": "creates"},
+    {"from": "TicketMaster", "to": "Order", "label": "manages"},
+    {"from": "KitchenEmployee", "to": "SpecialRequest", "label": "views"},
+    {"from": "RestaurantOwner", "to": "Tips", "label": "manages"}
+  ]
+}
