@@ -1,0 +1,41 @@
+{
+  "classes": [
+    "Moderator",
+    "Game",
+    "Item",
+    "Estimate",
+    "Developer",
+    "Site",
+    "Account",
+    "Application",
+    "Transcript",
+    "CSV File",
+    "Participant",
+    "Estimator",
+    "Spreadsheet",
+    "User"
+  ],
+  "relationships": [
+    {"from": "Moderator", "to": "Game", "label": "manages"},
+    {"from": "Game", "to": "Item", "label": "contains"},
+    {"from": "Item", "to": "Estimate", "label": "contains"},
+    {"from": "Moderator", "to": "Estimate", "label": "reviews"},
+    {"from": "Moderator", "to": "Item", "label": "manages_estimation_of"},
+    {"from": "Developer", "to": "Site", "label": "creates"},
+    {"from": "Moderator", "to": "Account", "label": "uses"},
+    {"from": "Account", "to": "Application", "label": "authenticates_for"},
+    {"from": "Moderator", "to": "Application", "label": "accesses"},
+    {"from": "Moderator", "to": "Transcript", "label": "exports"},
+    {"from": "Transcript", "to": "Game", "label": "represents"},
+    {"from": "Transcript", "to": "Item", "label": "contains"},
+    {"from": "Transcript", "to": "Estimate", "label": "contains"},
+    {"from": "Transcript", "to": "CSV File", "label": "generates"},
+    {"from": "Participant", "to": "Estimate", "label": "views"},
+    {"from": "Estimator", "to": "Estimate", "label": "gives"},
+    {"from": "Participant", "to": "Estimator", "label": "identifies"},
+    {"from": "Moderator", "to": "Spreadsheet", "label": "imports_from"},
+    {"from": "Moderator", "to": "Estimator", "label": "invites"},
+    {"from": "Estimator", "to": "Game", "label": "accesses"},
+    {"from": "User", "to": "Application", "label": "interacts_with"}
+  ]
+}

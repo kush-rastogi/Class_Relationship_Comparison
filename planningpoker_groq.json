@@ -1,0 +1,36 @@
+{
+  "classes": [
+    "Game",
+    "Item",
+    "Estimate",
+    "Moderator",
+    "Developer",
+    "Site",
+    "Account",
+    "Participant",
+    "Estimator",
+    "Spreadsheet",
+    "Application",
+    "Transcript",
+    "URL",
+    "User",
+    "XHTML",
+    "CSS"
+  ],
+  "relationships": [
+    {"from": "Game", "to": "Item", "label": "deletes"},
+    {"from": "Game", "to": "Estimate", "label": "has"},
+    {"from": "Moderator", "to": "Estimate", "label": "accepts"},
+    {"from": "Moderator", "to": "Item", "label": "estimates"},
+    {"from": "Moderator", "to": "Account", "label": "logs_in_using"},
+    {"from": "Moderator", "to": "Transcript", "label": "exports"},
+    {"from": "Participant", "to": "Estimate", "label": "sees"},
+    {"from": "Moderator", "to": "Spreadsheet", "label": "copies"},
+    {"from": "Moderator", "to": "Estimator", "label": "invites"},
+    {"from": "Estimator", "to": "Game", "label": "accesses"},
+    {"from": "Application", "to": "User", "label": "responds"},
+    {"from": "Site", "to": "XHTML", "label": "is_compliant_with"},
+    {"from": "Site", "to": "CSS", "label": "is_compliant_with"},
+    {"from": "Moderator", "to": "Account", "label": "has"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "classes": [
+    "Game",
+    "Item",
+    "Estimate",
+    "Moderator",
+    "Developer",
+    "User",
+    "Participant",
+    "XHTML",
+    "CSS",
+    "Account",
+    "Transcript",
+    "Spreadsheet",
+    "URL",
+    "Application"
+  ],
+  "relationships": [
+    {"from": "Moderator", "to": "Game", "label": "aggregation"},
+    {"from": "Moderator", "to": "Estimate", "label": "association"},
+    {"from": "Moderator", "to": "Item", "label": "association"},
+    {"from": "Moderator", "to": "Account", "label": "association"},
+    {"from": "Moderator", "to": "Transcript", "label": "association"},
+    {"from": "Moderator", "to": "Spreadsheet", "label": "association"},
+    {"from": "Moderator", "to": "URL", "label": "association"},
+    {"from": "Developer", "to": "XHTML", "label": "realization"},
+    {"from": "Developer", "to": "CSS", "label": "realization"},
+    {"from": "Participant", "to": "Estimate", "label": "association"},
+    {"from": "User", "to": "Application", "label": "association"}
+  ]
+}
