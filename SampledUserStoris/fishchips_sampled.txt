@@ -1,0 +1,10 @@
+As a Cashier, I want to print a physical ticket that shows the relevant order details, so the customer has an insight into his order, and there will be no misunderstanding when the customer receives his order.
+As a Cashier, I want to add the delivery address to the order, so that the delivery person knows where he needs to bring the order.
+As a Ticket Master, I want to label a product as ‘current orders’ at the moment the preparation of the products is started, so that current orders can be separated from orders with a different status.
+As a Kitchen Employee, I want to see the orders with their status, so that I am aware of the progress of each order.
+As a Ticket Master, I want to operate the screen with a touchscreen, so that it is easy to use.
+As a Cashier, I want to offer different payment methods, so that a customer has multiple options to pay for their order.
+As a Kitchen Employee, I want to receive a notification if the customer makes changes after the order is already paid, so that I know that there are changes to an order.
+As a Ticket Master, I want to have an overview of all orders that are currently made by the kitchen, so that I know how many orders are in progress.
+As a Kitchen Employee, I want to see special requests to be shown together with the product they are concerned about, so that I know if I have to prepare a product in a special way
+As a Restaurant Owner, I want to fill in the number of tips received on a day by the restaurant and the delivery employees, so that this amount can be fairly distributed among all employees.

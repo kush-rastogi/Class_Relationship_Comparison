@@ -1,0 +1,10 @@
+As a customer, I want to add products from the overview of my previous order to my new order, so that I can save time adding products to my order.
+As an employee, I want to notify customers in case of a delayed delivery, so that customers do not have to unnecessarily wait longer than needed.
+As a customer, I want to get recommendation regarding the nearest store, so that I won’t be need to select the related store.
+As a customer, I want to have my groceries delivered to me, so that I do not have to go to the store myself.
+As a customer, I want to be notified of special personal discounts, so that I do not miss out on them.
+As a customer, I want to see the available quantity of a product in store, so that I know that there is enough to fulfill my needs.
+As a customer, I want to create a personal account.
+As a customer, I want to change the font size of the text, so that it is easier for me to read.
+As a customer, I want to be provided with recipe ideas, so that I gain inspiration for my meals.
+As a customer, I want to be able to select a time slot for the delivery of my groceries so that I can make sure that I am home to receive the delivery.

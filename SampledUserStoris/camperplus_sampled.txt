@@ -1,0 +1,10 @@
+As a camp administrator, I want to be able to see medical forms, so that we can be prepared for an allergy attack.
+As a camp administrator, I want to be able to schedule activities for campers, so that camp workers can easily keep track of who is where at all times.
+As a camp worker, I want to be able to see which campers I am in charge of and where, so that I can make sure I am doing my job properly.
+As a camp administrator, I want to be able to add parents, so that they can enroll their kids at camp.
+﻿As a camp administrator, I want to be able to add campers, so that I can keep track of each individual camper.
+As a camp administrator, I want to be able to modify the information of enrolled campers, so that I can keep the campers information up to date.
+As a camp administrator, I want to be able to see all my camp groups and the events scheduled for each camp group, so that I can notify counselor of what their group will be doing for the day.
+As a camp worker, I want to report a camper to the manager with an inappropriate behavior.
+As a camp administrator, I want to be able to upload consent forms, so that campers or their parents can easily access the forms.
+As a camp administrator, I want to be able to make nametags faster, so that I don't have to spend two hours making 200+ nametags.

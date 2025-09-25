@@ -1,0 +1,6 @@
+Sampling for Gold Standard Creation:
+Due to the manual effort involved in constructing gold standard domain models, we selected a representative subset of user stories from each dataset for annotation. Specifically, we sampled 10 user stories per dataset, resulting in a total of 90 stories across 9 datasets.
+
+To ensure that the selected stories were diverse and representative of the full set, we employed a semantic clustering-based sampling approach. Sentence embeddings were generated using the pre-trained all-MiniLM-L6-v2 model from Sentence Transformers. These embeddings were then clustered using K-Means clustering (k=10). From each cluster, the user story closest to the centroid was selected, capturing the central theme of that cluster. This strategy ensures that the sampled stories reflect a broad range of functional requirements, user intents, and domain concepts found in the dataset.
+
+The final subset was manually reviewed and annotated to serve as a gold standard for evaluating automated domain model extraction techniques.

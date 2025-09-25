@@ -1,0 +1,10 @@
+As a manager, I want to be able to file a complaint regarding my workplace, so that my problems can be solved.
+As a manager, I want to be able to view my employee’s contracts at any given time, so that I have a clear overview of when extensions are due.
+As an employee, I want to be able to choose between weekly or monthly payments, so that I can adjust my payment routine to my lifestyle.
+As an employee, I want the application as secure as possible, so that my data does not fall into malicious hands.
+As an employee, I want to view the schedule at any given time, so that I can effectively keep track of my personal time.
+As an employee, I want the system to automatically verify my work hours, so that my salary statements are calculated accurately.
+As an employee, I want to receive a notification when my filed complaint is handled, so that I can stay up to date with the status of my complaint.
+As a manager, I want to be able to contact an employee easily, so I can reach them when needed.
+As an employee, I want to receive my salary statement, so that I have a clear overview.
+As an office employee, I want to be able to view all complaints, so that I can have an overview of the problems other employees face.

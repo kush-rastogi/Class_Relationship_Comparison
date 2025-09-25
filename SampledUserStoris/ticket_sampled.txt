@@ -1,0 +1,10 @@
+As a visitor, I want to see available seats at the event, so that I can decide which one to buy.
+As a company, I want to avoid fraudulent behavior on the reselling platform, so that visitors gain trust in the platform.
+As a visitor, I want to be able to land on the event page when clicking on a search result so that I can visit the page I want.
+As a user, I want to save my personal information (i.e., name, date of birth, email, address, and preferences) so that I don't have to repeat this process with every ticket purchase.
+As a visitor, I want to be able to buy tickets directly from the event page, so that the purchasing process is shortened.
+As a visitor, I want to be able to filter a list of events by genre, so that I don't have to see events I'm not interested in.
+As a visitor, I want to see events with available tickets so that I can buy the tickets.
+As a visitor, I want to be able to filter my search results by venue, so that I can easily find the event I want to go to.
+As a company, I want to have the minimum price for reselling a ticket at 5 cents so that I can receive a service fee.
+As an artist, I want to find information about my events on the designated event page so that visitors can read about my event and consider buying tickets.

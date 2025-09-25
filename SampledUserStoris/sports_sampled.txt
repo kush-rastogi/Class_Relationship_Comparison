@@ -1,0 +1,10 @@
+As a Customer, I want to see how many spots have been booked for a given timeslot.
+As an Admin I want to add a new trainer to the system, so the new trainer can start working.
+As a Customer, I want to be able to unsubscribe.
+As an Admin, I want to see if the Customer who is checking-in has any bookings.
+As a Customer, I want to be able to call the gym to cancel a lesson, so that I don’t have to use the application.
+As a Trainer, I want to set the type of lesson.
+As a Customer, I want to see what future lessons I have booked, so that I can manage my time.
+As a Customer, I want to receive notifications by the method which I prefer, so that I am able to see them and not be annoyed by them.
+As a Customer, I  want  to  be  able  to  change  my personal details.
+As a Trainer, I want to be the only Trainer who can edit my lessons.

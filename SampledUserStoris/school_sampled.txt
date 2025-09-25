@@ -1,0 +1,10 @@
+As a student, I want to have access to DLM, so that I can do the work that is expected of me.
+As a teacher I want to receive a notification when a student has uploaded a submission onto the LMs, so that I do not have to manually check to see if a student has submitted work.
+As a guardian, I want to view any information related to my children, so that I can gain insight into their behavior and performance.
+As an administrator, I want to create an account, so that I can facilitate access to the system for users.
+As a teacher, I want to view the attendance, grades that are obtained this year (including behavioral marks), personal details, and disciplinary actions of (any student in my class) or (any student that I am assigned to as mentor), so that I can gain insight into their performance.
+As a teacher, I want to record grades for a student, so that they can be informed about their performance.
+As a teacher, I want to add a page containing text and pictures to a DLM, so that this material can be used within a DLM.
+As a student, I want to receive a notification when something changes within my timetable, so that I am notified of any changes in the timetable in a timely manner.
+As a teacher, I want to receive a notification when I receive a message, so that I do not have to manually check for new messages.
+As an administrator, I want to upload schedules, so that students and teachers are able to gain insight into their daily schedules.

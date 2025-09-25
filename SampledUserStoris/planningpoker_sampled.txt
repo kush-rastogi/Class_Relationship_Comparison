@@ -1,0 +1,10 @@
+As a moderator, I want to delete a game, so that items and estimates for this game are no longer stored.
+As a moderator, I want to accept the average of all estimates, so that we can move on to the next item when we agree.
+As a moderator, I want to estimate a item we estimated earlier in the round again, so that we can give a new estimate if we feel different about the item after estimating other related items.
+As a developer, I want to have written a site which is compliant with XHTML and CSS standards, so that as many people as possible can access the site and view it as intended.
+As a moderator, I want to log in using my account name and password, so that I can start using the application.
+As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the items and estimates.
+As a participant, I want to immediately see that an estimate has been given by a specific estimator, so that I know who has already given an estimate and who we re still waiting for.
+As a moderator, I want to copy/paste items from a spreadsheet, so that I can get started more quickly.
+As a moderator, I want to invite estimators by giving them a URL where they can access the game, so that we can start the game.
+As a user, I want to have the application respond quickly to my actions, so that I don't get bored.
