@@ -1,0 +1,39 @@
+{
+  "classes": [
+    "CampAdministrator",
+    "CampWorker",
+    "Parent",
+    "MedicalForm",
+    "Activity",
+    "Camper",
+    "CampGroup",
+    "ConsentForm",
+    "Nametag"
+  ],
+  "relationships": [
+    {"from": "CampAdministrator", "to": "MedicalForm", "label": "views"},
+    {"from": "CampAdministrator", "to": "Activity", "label": "schedules"},
+    {"from": "CampAdministrator", "to": "Parent", "label": "adds"},
+    {"from": "CampAdministrator", "to": "Camper", "label": "manages"},
+    {"from": "CampAdministrator", "to": "CampGroup", "label": "oversees"},
+    {"from": "CampAdministrator", "to": "CampWorker", "label": "notifies"},
+    {"from": "CampAdministrator", "to": "ConsentForm", "label": "uploads"},
+    {"from": "CampAdministrator", "to": "Nametag", "label": "generates"},
+    {"from": "CampWorker", "to": "CampAdministrator", "label": "reports_to"},
+    {"from": "CampWorker", "to": "Camper", "label": "supervises"},
+    {"from": "CampWorker", "to": "CampGroup", "label": "is_assigned_to"},
+    {"from": "CampWorker", "to": "Camper", "label": "reports_inappropriate_behavior_of"},
+    {"from": "Parent", "to": "Camper", "label": "enrolls"},
+    {"from": "Parent", "to": "Camper", "label": "is_parent_of"},
+    {"from": "Parent", "to": "ConsentForm", "label": "accesses"},
+    {"from": "Camper", "to": "MedicalForm", "label": "has"},
+    {"from": "Camper", "to": "Activity", "label": "participates_in"},
+    {"from": "Camper", "to": "CampGroup", "label": "is_part_of"},
+    {"from": "Camper", "to": "ConsentForm", "label": "is_associated_with"},
+    {"from": "Camper", "to": "Nametag", "label": "is_identified_by"},
+    {"from": "Activity", "to": "CampGroup", "label": "is_scheduled_for"},
+    {"from": "Activity", "to": "Camper", "label": "involves"},
+    {"from": "CampGroup", "to": "Camper", "label": "comprises"},
+    {"from": "CampGroup", "to": "CampWorker", "label": "has_assigned"}
+  ]
+}
